@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import { ApolloServer, gql } from "apollo-server";
 import { ApolloServerPluginLandingPageLocalDefault } from "apollo-server-core";
 import datasource from "./utils";
